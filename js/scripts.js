@@ -24,6 +24,7 @@ $(document).ready(function() {
   $("form#pingpong").submit(function(event){
     event.preventDefault();
     var number = parseInt($("input#pingorpong").val());
-    enteredNumber(number);
+    var result = enteredNumber(number);
+    //enteredNumber(number);
   });
 });

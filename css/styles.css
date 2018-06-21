@@ -2,3 +2,7 @@
   font-size: 36px;
   text-align: center;
 }
+
+#result {
+  display: none;
+}
