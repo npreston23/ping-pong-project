@@ -2,11 +2,14 @@
 var emptyArray = []
 
 var enteredNumber = function(number) {
-  if (number % 10 === 0){
-    emptyArray.push("I'm a ten!");
+  if (number % 15 === 0){
+    emptyArray.push("pingpong");
     $(".result").text(emptyArray);
   } else if (number % 5 === 0){
-    emptyArray.push("I'm a 5/5!");
+    emptyArray.push("pong");
+    $(".result").text(emptyArray);
+  } else if (number % 3 === 0){
+    emptyArray.push("ping");
     $(".result").text(emptyArray);
   }
   else {
